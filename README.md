@@ -14,19 +14,45 @@ The data was imported through an xlsx file into multiple panda dataframes. All d
 
 First off, lets look at the demographics of the test participants. Again, all participants in this dataset were located in the Miyagi Prefecture where damage from the earthquake was most severe. 
 
-![demo]("Images/StackerBar.png")
+<img src="Images/StackedBar3.png"
+     alt="Demographics" />
+
 
 As you can see, I categorized each group of people into the degree in which they expierenced mental struggle. This statistic was gathered on a three point scale - 0 being no impact, 1 being some impact, and 2 being a large impact. Unfortunately, this graph does not draw any major conclusions. One could say that the older age groups tend to expierence a larger impact to their mental stability however more testing on this would have to be done to confirm this hypothesis to be true and not just due to the small sample size of the dataset. Other factors might include older people having more wealth, property, and materialistic items that were ultimately lost during the tragedy. So lets move on...
 
 Personality type is a very fluid subject, some might take a test such as the Myeers Briggs test and take it as a fact, some might look at their daily horoscope, and some may think that their personality type changes by the day. Typically, thinking of your personality on a spectrum is a great way to understand where you may be strong in and where you may be weak in. Below is an interesting scatter matrix of each personality type and their correlation to each other. You can definitely see some interesting insight here showing that some personality types are much more correlated to each other than others. 
 
-![scattermatrix]('Images/scatter.png')
+
+<img src="Images/scatter.png"
+     alt="personality correlation" />
 
 As I mentioned, it is extremely hard to categorize personality and while this scatter matrix helps it is only two dimensional. We would need to categorize numerous personality types and find their correlation between every single one to truly narrow down what type of person is fundamentally different from another. With that said, this scatter matrix definitely gives us a general idea of what personality types correlate with another. For instance, there is high correlation with the problem solving personality type compared to etiquette where there is not much correlation at all. So we continue...
 
 Next you can see a box and whisker plot for each personality type and its correlation to the level of impact the earthquake caused their mental wellbeing. 
 
-INSERT BOX PLOTS
+<img src="Images/Altruism.png"
+     alt="Box1" />
+
+<img src="Images/EmoReg.png"
+     alt="Box2" />
+
+<img src="Images/Etiquette.png"
+     alt="Box3" />
+
+<img src="Images/Leadership.png"
+     alt="Box4" />
+
+<img src="Images/ProblemSolving.png"
+     alt="Box5" />
+
+<img src="Images/SelfImprove.png"
+     alt="Box6" />
+
+<img src="Images/SelfTranscendence.png"
+     alt="Box7" />
+
+<img src="Images/Stubbornness.png"
+     alt="Box8" />
 
 As you may notice, many of these personality types really don't differ at all when comparing it to how much of a struggle the earthquake caused them. What stands out to me is the problem solving and emotional regulation personality types where people who scored higher in these peresonality types had a slightly better mental health outcome. On the contrary, etiquette had a negative correlation such that people who scored as having a high amount of etiqutte might of actually fared worse during the disaster.
 
@@ -71,6 +97,10 @@ The reason for different sample sizes despite both being 25% of the same sample 
 $$P(\text{Difference in proportions equal to or more extreme than observed} \mid \text{Null hypothesis}) $$
 
 ### p-value = .028978
+
+<img src="Images/Pvalue.png"
+     alt="Pvalue" />
+
 ### P Value is less than null thus we may reject our null hypothesis
 
 Our P-Value allows us to reject the null hypothesis. With this said, there are many biases that may have given us a false positive here. First off each person is self diagnosing themselves through a simple 40 question personality test. Realistically, this test can not truly encapsulate the personality of each person. Additionally, the test was given two full years after the event and while that definitely is not long enough to forget about an event as impactful as this earthquake that is a very long time to remember details of the event and your overall mental stability during that time. We also have to keep in mind their mental stability before the earthquake as well, were they already in a tough mental state and the earthquake compounded this feeling of mental trauma or possibly the test subject was in a great state of mind prior to the earthquake and they were able to get by without too much mental impact (reletively speaking). Of course, we can not test people who did not survive this tragic event and maybe their personality type would have shed a better light on where we should all improve upon given an event like this happens to one of us. Maybe that personality type can't even be improved upon no matter how hard we try and that nature is what gives us that skill rather than nurture. 
