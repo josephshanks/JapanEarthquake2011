@@ -65,30 +65,9 @@ Lets see if this is true with a hypothesis test.
 
 <img src="Images/Screen Shot 2020-04-10 at 2.18.28 PM.png"
      alt="HypothesisTest" />
-$$ p_1 = P(\text{Evacuating immediately after the first and only earthquake/tsunami warning}) $$
-$$ p_3 = P(\text{Evacuating immediately after the first and only earthquake/tsunami warning}) $$
 
-
-$$ H_0: \ p_1 \leq p_3 $$
-
-# State the opposite of your null hypothesis: the alternative hypothesis
-
-#### People who tested in Quartile 1 of emotional regulation are not more likely to evacuate right away (considered the 'correct' decision) than people who tested below Quartile 3.
-
-# Create a probabilistic model of the situation when the null is true
-
-$$ \text{Frequency that people in the top 25 % of emotional regulation evacuated immediately after the warning signs} \approx \nor \bigl( p_M, \sqrt{\frac{p_M(1-p_M)}{304}} \bigr) $$
-$$ \text{Frequency that people in the bottom 25 % of emotional regulation evacuated immediately after the warning signs} \approx \nor \bigl( p_N, \sqrt{\frac{p_N(1-p_N)}{353}} \bigr) $$
-
-The reason for different sample sizes despite both being 25% of the same sample is due to the way the personality test was given. For emotional regulation questions specifically people were ranked between 0 and 20. This ultimately lead to the size of each quartile not being exactly equal as there were many duplicate results at the edges of each quartile. In this case the bottom quartile was capped at a ranking of 12/20 but many people scored exactly 12/20 making for each one of them being included in the bottom quartile (less than or equal to the bottom 25% of the sample size).
-
-# Determine how surprised you need to be to reject the null: determine a rejection level alpha
-
- $$ \alpha = 0.05 $$
 
 # Calculate p-value
-
-$$P(\text{Difference in proportions equal to or more extreme than observed} \mid \text{Null hypothesis}) $$
 
 ### p-value = .028978
 
