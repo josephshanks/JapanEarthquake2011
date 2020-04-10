@@ -32,25 +32,18 @@ Next you can see a box and whisker plot for each personality type and its correl
 
 <img src="Images/Altruism.png"
      alt="Box1" />
-
 <img src="Images/EmoReg.png"
      alt="Box2" />
-
 <img src="Images/Etiquette.png"
      alt="Box3" />
-
 <img src="Images/Leadership.png"
      alt="Box4" />
-
 <img src="Images/ProblemSolving.png"
      alt="Box5" />
-
 <img src="Images/SelfImprove.png"
      alt="Box6" />
-
 <img src="Images/SelfTranscendence.png"
      alt="Box7" />
-
 <img src="Images/Stubbornness.png"
      alt="Box8" />
 
