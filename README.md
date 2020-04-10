@@ -63,7 +63,8 @@ Lets see if this is true with a hypothesis test.
 
 #### After hearing the warning that a tsunami and earthquake is coming, People in quartile 1 of emotional regulation are no more likely to evacuate the area than people below quartile 3.
 
-
+<img src="Images/Screen Shot 2020-04-10 at 2.18.28 PM.png"
+     alt="HypothesisTest" />
 $$ p_1 = P(\text{Evacuating immediately after the first and only earthquake/tsunami warning}) $$
 $$ p_3 = P(\text{Evacuating immediately after the first and only earthquake/tsunami warning}) $$
 
