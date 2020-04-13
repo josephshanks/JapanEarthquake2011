@@ -74,7 +74,7 @@ Lets see if this is true with a hypothesis test.
 <img src="Images/Pvalue.png"
      alt="Pvalue" />
 
-### P Value is less than null thus we may reject our null hypothesis
+### P Value is less than alpha thus we may reject our null hypothesis
 
 Our P-Value allows us to reject the null hypothesis. With this said, there are many biases that may have given us a false positive here. First off each person is self diagnosing themselves through a simple 40 question personality test. Realistically, this test can not truly encapsulate the personality of each person. Additionally, the test was given two full years after the event and while that definitely is not long enough to forget about an event as impactful as this earthquake that is a very long time to remember details of the event and your overall mental stability during that time. We also have to keep in mind their mental stability before the earthquake as well, were they already in a tough mental state and the earthquake compounded this feeling of mental trauma or possibly the test subject was in a great state of mind prior to the earthquake and they were able to get by without too much mental impact (reletively speaking). Of course, we can not test people who did not survive this tragic event and maybe their personality type would have shed a better light on where we should all improve upon given an event like this happens to one of us. Maybe that personality type can't even be improved upon no matter how hard we try and that nature is what gives us that skill rather than nurture. 
 
